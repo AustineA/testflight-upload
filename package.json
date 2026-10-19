@@ -1,0 +1,31 @@
+{
+  "name": "testflight-upload",
+  "version": "1.0.0",
+  "description": "Create a signed iOS archive, export an App Store IPA, upload it to TestFlight and verify Apple's processing status",
+  "bin": {
+    "testflight-upload": "./bin/install.mjs"
+  },
+  "keywords": [
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "skills",
+    "installer"
+  ],
+  "author": "AustineA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AustineA/testflight-upload"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

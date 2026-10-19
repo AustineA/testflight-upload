@@ -1,0 +1,4 @@
+interface:
+  display_name: "TestFlight Upload"
+  short_description: "Build, sign, upload, and verify iOS TestFlight releases"
+  default_prompt: "Use $testflight-upload to create a signed production build of this app and upload it to TestFlight."
